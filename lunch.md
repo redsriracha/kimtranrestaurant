@@ -1,4 +1,4 @@
-# Kim Tran Restaurant
+# {{ site.title }}
 ## Vietnamese & Chinese Food
 
 Lunch Hours: Monday - Saturday: 11:00 A.M. - 2:30 P.M.
@@ -28,5 +28,6 @@ Phone: (210) 824-4660
 119. Beef with Rice Noodles
 120. Chicken Lemon Grass with Springroll and Steamed Rice
 
+<page:hello>:<page>
 
-{{ site.title }}
+{{ page.page }}
