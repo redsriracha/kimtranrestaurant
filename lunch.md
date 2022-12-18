@@ -28,4 +28,5 @@ Phone: (210) 824-4660
 119. Beef with Rice Noodles
 120. Chicken Lemon Grass with Springroll and Steamed Rice
 
-{{ site.time }}
+
+{{ site.title }}
