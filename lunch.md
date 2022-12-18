@@ -14,6 +14,8 @@ Phone: (210) 824-4660
 
 |#|Cost|
 |:-|:-|
+
+{:start="110"}
 110. Soft Noodles with Shrimp, BBQ Pork, and Chicken
 111. Stir Fried Crabmeat and Grounded Pork with Vermicelli
 112. Sweet & Sour Shrimp with Springroll and Steamed Rice
