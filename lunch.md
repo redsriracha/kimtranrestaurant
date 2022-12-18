@@ -34,3 +34,5 @@ _(Fried noodles is additional cost)_
 118. Beef with Vermicelli and Steamed Rice
 119. Beef with Rice Noodles
 120. Chicken Lemon Grass with Springroll and Steamed Rice
+
+{{ page.test }}
