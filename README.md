@@ -1,12 +1,12 @@
 # {{ site.title }}
 ## Vietnamese & Chinese Food
 
-{{ site.hours }}
+Hours: {{ site.hours }}
 \
-{{ site.address }}
+Address: {{ site.address }}
 \
-{{ site.phone }}
+Phone: {{ site.phone }}
 
 Menu:
-- [Lunch](./lunch.html)
-- [Dinner](./dinner.html)
+- [Lunch](./lunch.html) (11:00 A.M - 2:30 P.M.)
+- [Dinner](./dinner.html) (5:00 P.M - 9:30 P.M.)
