@@ -1,7 +1,7 @@
 # {{ site.title }}
 ## Vietnamese & Chinese Food
 
-Hours: {{ site.hours }}
+Hours: Monday - Saturday, 11:00 A.M - 2:30 P.M. & 5:00 P.M. - 9:30 P.M.
 \
 Address: {{ site.address }}
 \
