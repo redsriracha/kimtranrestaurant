@@ -1,11 +1,11 @@
-# Kim Tran Restaurant
+# {{ site.title }}
 ## Vietnamese & Chinese Food
 
 {{ site.hours }}
-
-Address: 1015 Rittiman Rd #107, San Antonio, TX 78218
-
-Phone: (210) 824-4660
+\
+{{ site.address }}
+\
+{{ site.phone }}
 
 Menu:
 - [Lunch](./lunch.html)
