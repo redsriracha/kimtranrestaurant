@@ -7,9 +7,9 @@ Vietnamese & Chinese Food
 
 Lunch Hours: Monday - Saturday: 11:00 A.M. - 2:30 P.M.
 \
-{{ site.address }}
+Address: {{ site.address }}
 \
-{{ site.phone }}
+Phone: {{ site.phone }}
 
 ### Vietnamese Lunch Special
 ---
@@ -18,9 +18,6 @@ Lunch Hours: Monday - Saturday: 11:00 A.M. - 2:30 P.M.
 - Hot & Sour Soup
 
 _(Fried noodles is additional cost)_
-
-|#|Cost|
-|:-|:-|
 
 {:start="110"}
 110. Soft Noodles with Shrimp, BBQ Pork, and Chicken
