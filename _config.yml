@@ -1,6 +1,8 @@
 title: Kim Tran Restaurant
 logo: /assets/img/logo.png
 description: Chinese and Vietnamese Food
+hours: Hours: Monday - Saturday: 11:00 A.M. - 2:30 P.M. & 5:00 P.M. - 9:30 P.M.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+
