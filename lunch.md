@@ -1,16 +1,19 @@
-# {{ site.title }}
-## Vietnamese & Chinese Food
+# Kim Tran Restaurant
+Vietnamese & Chinese Food
 
 Lunch Hours: Monday - Saturday: 11:00 A.M. - 2:30 P.M.
-
-Address: 1015 Rittiman Rd #107, San Antonio, TX 78218
-
-Phone: (210) 824-4660
+\
+{{ site.address }}
+\
+{{ site.phone }}
 
 ### Vietnamese Lunch Special
-#### (Dine-In Only) Served with the choice of one of the following soup _(Fried noodles is additional cost)_:
+---
+#### (Dine-In Only) Served with the choice of one of the following soup:
 - Egg Drop Soup
 - Hot & Sour Soup
+
+_(Fried noodles is additional cost)_
 
 |#|Cost|
 |:-|:-|
@@ -27,7 +30,3 @@ Phone: (210) 824-4660
 118. Beef with Vermicelli and Steamed Rice
 119. Beef with Rice Noodles
 120. Chicken Lemon Grass with Springroll and Steamed Rice
-
-<page:hello>:<page>
-
-{{ page.page }}
