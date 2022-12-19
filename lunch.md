@@ -1,3 +1,12 @@
+---
+chef: $10.50
+shrimp: $10.25
+beef: $10.25
+chicken: $9.95
+pork: $9.95
+vege: $9.50
+---
+
 <link rel="stylesheet" href="assets/css/style.css">
 Service options: Dine-in · No delivery \
 Located in: Seoul Asian Market and Cafe \
@@ -39,11 +48,11 @@ Phone: 210.824.4660
 129. Large Egg Drop Soup
 
 ## Chinese Lunch Special
-(Dine-In Only) Served with:
+(Dine-In Only) Served with: *Add Fried Noodles for additional cost
 - "Egg Drop Soup" OR "Hot & Sour Soup"
 - "Egg Roll" OR "Crabmeat Rangoon"
 
-### Chef Specialties
+### Chef Specialties {{page.chef}}
 
 {:start="1"}
 1. *Triple Delight
@@ -57,7 +66,7 @@ Phone: 210.824.4660
 9. Combination Chowmein or Chopsuey
 10. Combination Lomein
 
-### Shrimp
+### Shrimp {{page.shrimp}}
 
 {:start="11"}
 11. *Imperial Shrimp
@@ -75,7 +84,7 @@ Phone: 210.824.4660
 23. Shrimp Chowmein or Chopsuey
 24. Shrimp Lomein
 
-### Beef
+### Beef {{page.beef}}
 
 {:start="25"}
 25. *Hunan Beef
@@ -91,7 +100,7 @@ Phone: 210.824.4660
 35. Beef Chowmein or Chopsuey
 36. Beef Lomein
 
-### Chicken
+### Chicken {{page.chicken}}
 
 {:start="37"}
 37. Lemon Chicken
@@ -110,7 +119,7 @@ Phone: 210.824.4660
 50. Chicken Chowmein or Chopsuey
 51. Chicken Lomein
 
-### Pork
+### Pork {{page.pork}}
 
 {:start="52"}
 52. Sweet & Sour Pork
@@ -120,7 +129,7 @@ Phone: 210.824.4660
 56. Pork Chowmein or Chopsuey
 57. Pork Lomein
 
-### Vegetable
+### Vegetable {{page.vege}}
 
 {:start="58"}
 58. Vegetable Delight
@@ -128,5 +137,6 @@ Phone: 210.824.4660
 60. Vegetable Lomein
 
 (*) Indicate Spicy Dishes
+(**) Prices may vary
 
 [Back](./)
