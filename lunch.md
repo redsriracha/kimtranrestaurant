@@ -16,6 +16,8 @@ Hours: Monday - Saturday, 11:00 A.M. - 2:30 P.M. & 5:00 P.M. \
 Phone: 210.824.4660
 
 # Lunch Menu (11:00 A.M. - 2:30 P.M.)
+[Back](./)
+
 ---
 ## Vietnamese Lunch Special
 (Dine-In Only) Served with: *Add Fried Noodles for additional cost
