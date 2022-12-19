@@ -47,6 +47,7 @@ Phone: 210.824.4660
 128. *Large Hot & Sour Soup
 129. Large Egg Drop Soup
 
+---
 ## Chinese Lunch Special
 (Dine-In Only) Served with: *Add Fried Noodles for additional cost
 - "Egg Drop Soup" OR "Hot & Sour Soup"
@@ -136,7 +137,7 @@ Phone: 210.824.4660
 59. *Broccoli Garlic Sauce
 60. Vegetable Lomein
 
-(*) Indicate Spicy Dishes
+(*) Indicate Spicy Dishes \
 (**) Prices may vary
 
 [Back](./)
