@@ -1,10 +1,11 @@
 ---
-chef: "**$10.50"
-shrimp: "**$10.25"
-beef: "**$10.25"
-chicken: "**$9.95"
-pork: "**$9.95"
-vege: "**$9.50"
+chef: "10.50"
+shrimp: "10.25"
+beef: "10.25"
+chicken: "9.95"
+pork: "9.95"
+vege: "9.50"
+update: 12/20/2022
 ---
 
 <link rel="stylesheet" href="assets/css/style.css">
@@ -17,6 +18,96 @@ Phone: 210.824.4660
 
 # Lunch Menu (11:00 A.M. - 2:30 P.M.)
 [Back](./)
+
+---
+## Chinese Lunch Special
+(Dine-In Only) Served with: *Add Fried Noodles for additional cost
+- "Egg Drop Soup" OR "Hot & Sour Soup"
+- "Egg Roll" OR "Crabmeat Rangoon"
+
+### Chef Specialties **${{ page.chef | sprintf('%.2f') }}
+
+{:start="1"}
+1. *Triple Delight
+2. Sweet & Sour Delight
+3. *General Chicken
+4. Golden Chicken
+5. *Sesame Chicken
+6. *Sesame Beef
+7. *Chicken & Shrimp Sauté
+8. *Chicken & Beef Hunan
+9. Combination Chow Mein or Chop Suey
+10. Combination Lo Mein
+
+### Shrimp **${{ page.shrimp | sprintf('%.2f') }}
+
+{:start="11"}
+11. *Imperial Shrimp
+12. Sweet & Sour Shrimp
+13. *Shrimp Garlic Sauce
+14. Shrimp Snow Peas
+15. *Hunan Shrimp
+16. Shrimp Cashew
+17. Shrimp Vegetable
+18. Shrimp Broccoli
+19. *Kung Po Shrimp
+20. *Shrimp Curry
+21. *Shrimp Black Bean Sauce
+22. Shrimp Lobster Sauce
+23. Shrimp Chow Mein or Chop Suey
+24. Shrimp Lo Mein
+
+### Beef **${{ page.beef | sprintf('%.2f') }}
+
+{:start="25"}
+25. *Hunan Beef
+26. *Spicy Hot Beef
+27. Beef Vegetable
+28. Beef Broccoli
+29. Pepper Steak
+30. Beef Mushroom
+31. *Beef Black Bean Sauce
+32. Mongolian Beef
+33. *Beef Garlic Sauce
+34. Beef Snow Peas
+35. Beef Chow Mein or Chop Suey
+36. Beef Lo Mein
+
+### Chicken **${{ page.chicken | sprintf('%.2f') }}
+
+{:start="37"}
+37. Lemon Chicken
+38. *Mongolian Chicken
+39. *Kung Po Chicken
+40. *Chicken Curry
+41. *Chicken Black bean Sauce
+42. Sweet & Sour Chicken
+43. *Chicken Garlic Sauce
+44. Chicken Snow Peas
+45. *Hunan Chicken
+46. Chicken Cashew Nuts
+47. Chicken Vegetable
+48. Chicken Broccoli
+49. Chicken Almond
+50. Chicken Chow Mein or Chop Suey
+51. Chicken Lo Mein
+
+### Pork **${{ page.pork | sprintf('%.2f') }}
+
+{:start="52"}
+52. Sweet & Sour Pork
+53. *Pork Garlic Sauce
+54. *Twice Cooked Pork
+55. *Hunan Pork
+56. Pork Chow Mein or Chop Suey
+57. Pork Lo Mein
+
+### Vegetable **${{ page.vege | sprintf('%.2f') }}
+
+{:start="58"}
+58. Vegetable Delight
+59. *Broccoli Garlic Sauce
+60. Vegetable Lo Mein
 
 ---
 ## Vietnamese Lunch Special
@@ -49,97 +140,7 @@ Phone: 210.824.4660
 128. *Large Hot & Sour Soup
 129. Large Egg Drop Soup
 
----
-## Chinese Lunch Special
-(Dine-In Only) Served with: *Add Fried Noodles for additional cost
-- "Egg Drop Soup" OR "Hot & Sour Soup"
-- "Egg Roll" OR "Crabmeat Rangoon"
-
-### Chef Specialties {{page.chef}}
-
-{:start="1"}
-1. *Triple Delight
-2. Sweet & Sour Delight
-3. *General Chicken
-4. Golden Chicken
-5. *Sesame Chicken
-6. *Sesame Beef
-7. *Chicken & Shrimp Sauté
-8. *Chicken & Beef Hunan
-9. Combination Chow Mein or Chop Suey
-10. Combination Lo Mein
-
-### Shrimp {{page.shrimp}}
-
-{:start="11"}
-11. *Imperial Shrimp
-12. Sweet & Sour Shrimp
-13. *Shrimp Garlic Sauce
-14. Shrimp Snow Peas
-15. *Hunan Shrimp
-16. Shrimp Cashew
-17. Shrimp Vegetable
-18. Shrimp Broccoli
-19. *Kung Po Shrimp
-20. *Shrimp Curry
-21. *Shrimp Black Bean Sauce
-22. Shrimp Lobster Sauce
-23. Shrimp Chow Mein or Chop Suey
-24. Shrimp Lo Mein
-
-### Beef {{page.beef}}
-
-{:start="25"}
-25. *Hunan Beef
-26. *Spicy Hot Beef
-27. Beef Vegetable
-28. Beef Broccoli
-29. Pepper Steak
-30. Beef Mushroom
-31. *Beef Black Bean Sauce
-32. Mongolian Beef
-33. *Beef Garlic Sauce
-34. Beef Snow Peas
-35. Beef Chow Mein or Chop Suey
-36. Beef Lo Mein
-
-### Chicken {{page.chicken}}
-
-{:start="37"}
-37. Lemon Chicken
-38. *Mongolian Chicken
-39. *Kung Po Chicken
-40. *Chicken Curry
-41. *Chicken Black bean Sauce
-42. Sweet & Sour Chicken
-43. *Chicken Garlic Sauce
-44. Chicken Snow Peas
-45. *Hunan Chicken
-46. Chicken Cashew Nuts
-47. Chicken Vegetable
-48. Chicken Broccoli
-49. Chicken Almond
-50. Chicken Chow Mein or Chop Suey
-51. Chicken Lo Mein
-
-### Pork {{page.pork}}
-
-{:start="52"}
-52. Sweet & Sour Pork
-53. *Pork Garlic Sauce
-54. *Twice Cooked Pork
-55. *Hunan Pork
-56. Pork Chow Mein or Chop Suey
-57. Pork Lo Mein
-
-### Vegetable {{page.vege}}
-
-{:start="58"}
-58. Vegetable Delight
-59. *Broccoli Garlic Sauce
-60. Vegetable Lo Mein
+[Back](./)
 
 (*) Indicate Spicy Dishes \
-(**) Prices may vary
-
-[Back](./)
+(**) Prices may vary. Updated since {{ page.update }}
