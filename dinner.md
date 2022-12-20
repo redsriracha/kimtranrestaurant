@@ -1,10 +1,10 @@
 ---
-chef: 10.50
-shrimp: 10.25
-beef: 10.25
-chicken: 9.95
-pork: 9.95
-vege: 9.50
+chef: "10.50"
+shrimp: "10.25"
+beef: "10.25"
+chicken: "9.95"
+pork: "9.95"
+vege: "9.50"
 update: 12/20/2022
 ---
 
@@ -40,6 +40,7 @@ Phone: 210.824.4660
         - 2 Egg Rolls, 2 Fried Wontons, 2 Fried Crabmeat Rangoon, 2 BBQ Beef, 2 BBQ Ribs, and 2 Fried Shrimp
 
 ### Soups
+Add Fried Noodles for additional cost
 - Crab Corn Soup
 - Wonton Soup
 - Special Wonton Soup (L)
@@ -51,6 +52,7 @@ Phone: 210.824.4660
 - Chicken Asparagus Soup (L)
 
 ### House Specialties
+Served with steamed rice
 - Triple Delight
 - Sweet & Sour Delight
 - General Chicken
@@ -75,7 +77,8 @@ Phone: 210.824.4660
 - Scallop Peking Style
 - Shrimp and Pork Hunan
 
-### Chicken
+### Chicken **${{ page.chicken | sprintf(%.2f) }}
+Served with steamed rice
 - Lemon Chicken
 - Mongolian Chicken
 - Kung Po Chicken
@@ -93,7 +96,8 @@ Phone: 210.824.4660
 - Chicken with Asparagus and Mushroom
 - Shredded Chicken with Seasonal Vegetables
 
-### Pork
+### Pork **${{ page.pork | sprintf(%.2f) }}
+Served with steamed rice
 - Sweet & Sour Pork
 - Pork with Garlic Sauce
 - Twice Cooked Pork
@@ -102,7 +106,8 @@ Phone: 210.824.4660
 - Shredded Pork with Peking Sauce
 - Pork Two Delight
 
-### Beef
+### Beef **${{ page.beef | sprintf(%.2f) }}
+Served with steamed rice
 - Hunan Beef
 - Spicy Beef
 - Beef Vegetable
@@ -117,7 +122,8 @@ Phone: 210.824.4660
 - Sliced Beef with Oyster Sauce
 - Beef Two Delight
 
-### Seafood
+### Seafood **${{ page.seafood | sprintf(%.2f) }}
+Served with steamed rice
 - Imperial Shrimp
 - Sweet & Sour Shrimp
 - Shrimp Garlic Sauce
@@ -135,6 +141,7 @@ Phone: 210.824.4660
 - Scallop Garlic Sauce
 
 ### Vegetables
+Served with steamed rice
 - Broccoli Garlic Sauce
 - Vegtable Delight
 - Snow Peas Water Chestnut
@@ -164,7 +171,42 @@ Phone: 210.824.4660
 - Combination
 - Crabmeat
 
-### Dinner Special / Family Dinner
+### Dinner Special **${{ page.dspec | sprintf(%.2f) }}
+Served with:
+- "Egg Roll" OR "Crabmeat Rangoon"
+- "Fried Rice"
+
+(Items containing shrimp is additional cost)
+
+- Lemon Chicken
+- Sweet & Sour Chicken
+- Chicken Vegetable
+- Chicken Cashew
+- Hunan Chicken
+- Chicken Broccoli
+- Kung Po Chicken
+- Vegetable Delight
+- Sweet & Sour Pork
+- Twice Cooked Pork
+- Pork Garlic Sauce
+- Beef Broccoli
+- Pepper Steak
+- Hunan Beef
+- Mongolian Beef
+- Beef Garlic Sauce
+- Beef Vegetable
+- Shrimp Vegetable
+- Shrimp Lobster Sauce
+- Kung Po Shrimp
+
+### Family Dinner **${{ page.fspec | sprintf(%.2f) }} per person
+Served with:
+- "Egg Drop Soup" OR "Hot & Sour Soup"
+- "Egg Roll" OR "Crabmeat Rangoon"
+- "Fried Rice"
+
+(Minimum for two persons, one item per person)
+
 - Lemon Chicken
 - Sweet & Sour Chicken
 - Chicken Vegetable
@@ -187,6 +229,10 @@ Phone: 210.824.4660
 - Kung Po Shrimp
 
 ### Combination Plates
+Served with:
+- "Egg Roll" OR "Crabmeat Rangoon"
+- "Fried Rice"
+
 - Sweet & Sour Pork & Chicken Almond
 - Sweet & Sour Pork & Hunan Chicken
 - Sweet & Sour Chicken & Pork Garlic Sauce
@@ -197,6 +243,12 @@ Phone: 210.824.4660
 - Chicken Cashew & Beef Broccoli 
 
 ### Children's Plates
+Served with:
+- "Egg Roll" OR "Crabmeat Rangoon"
+- "Fried Rice"
+
+(For only children 12 year old or younger)
+
 - Sweet & Sour Pork
 - Sweet & Sour Chicken
 - Lemon Chicken
@@ -263,6 +315,5 @@ Served with:
     - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
 1. Dinner for Six
     - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
-1. 
 
 [Back](./)
