@@ -191,7 +191,7 @@ Served with steamed rice
 - ${{ page.FRcomb | plus:2 | sprintf("%.2f") }} Combination
 - ${{ page.FRcrab | plus:2 | sprintf("%.2f") }} Crabmeat
 
-### Dinner Special **${{ page.dspec | sprintf("%.2f") }}
+### Dinner Specials **${{ page.dspec | sprintf("%.2f") }}
 Served with:
 - "Egg Roll" OR "Crabmeat Rangoon"
 - "Fried Rice"
@@ -248,7 +248,7 @@ Served with:
 - Shrimp Lobster Sauce
 - Kung Po Shrimp
 
-### Combination Plates **${{ page.CHcomb | sprintf("%.2f") }}
+### Combination Dinners **${{ page.CHcomb | sprintf("%.2f") }}
 Served with:
 - "Egg Roll" OR "Crabmeat Rangoon"
 - "Fried Rice"
@@ -276,9 +276,11 @@ Served with:
 
 ---
 
+## ---
+
 ## Vietnamese Cuisine
 
-### Appetizers
+### VN Appetizers
 
 {:start="1"}
 1. Chicken Lettuce Wrap
@@ -288,7 +290,7 @@ Served with:
 1. Beef Shish Kabob (1 piece)
 1. Fried Chicken Wing (12 pieces)
 
-### Soups
+### VN Soups
 
 {:start="7"}
 1. Soup Mieng (Soup Surpreme)
@@ -298,7 +300,7 @@ Served with:
 1. Pho (Beef Noodle Soup)
 1. Hu Tieu
 
-### Rice Noodles
+### VN Rice Noodles
 
 {:start="13"}
 1. Sauteed Beef Rice Noodles
@@ -307,7 +309,7 @@ Served with:
 1. Beef Shish Kabob Rice Noodles
 1. Chicken Lemon Grass Rice Noodles
 
-### Entrees
+### VN Entrees
 
 {:start="19"}
 1. Pork Ribs Pineapple
@@ -319,7 +321,7 @@ Served with:
 1. 
 1. Chicken Lemon Grass
 
-### Combination Dinners **${{ page.VNcomb | sprintf("%.2f") }}
+### Vietnamese Combination Dinners **${{ page.VNcomb | sprintf("%.2f") }}
 
 {:start="27"}
 1. Fried Rice with Spring Roll & Beef Shish Kabobs
@@ -347,7 +349,6 @@ Served with:
 - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
 
 [Back](./)
-
 
 (*) Indicate Spicy Dishes \
 (**) Prices may vary. Updated since {{ page.update }}
