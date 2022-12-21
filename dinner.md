@@ -337,14 +337,14 @@ Served with:
 - "Egg Drop Soup" OR "Hot & Sour Soup"
 - "Steamed Rice"
 
-- **${{ page.VNfam2 | sprintf("%.2f") }} Dinner for Two
-    - Spring Roll (1), Chicken Lemon Grass, and Sweet & Sour Pork 
-- **${{ page.VNfam3 | sprintf("%.2f") }} Dinner for Three
-    - Spring Roll (2), Curry Chicken, Beef Broccoli, and Shrimp Snow Peas
-- **${{ page.VNfam4 | sprintf("%.2f") }} Dinner for Four
-    - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
-- **${{ page.VNfam6 | sprintf("%.2f") }} Dinner for Six
-    - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
+1. **${{ page.VNfam2 | sprintf("%.2f") }} Dinner for Two
+- Spring Roll (1), Chicken Lemon Grass, and Sweet & Sour Pork 
+2. **${{ page.VNfam3 | sprintf("%.2f") }} Dinner for Three
+- Spring Roll (2), Curry Chicken, Beef Broccoli, and Shrimp Snow Peas
+3. **${{ page.VNfam4 | sprintf("%.2f") }} Dinner for Four
+- Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
+4. **${{ page.VNfam6 | sprintf("%.2f") }} Dinner for Six
+- Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
 
 [Back](./)
 
