@@ -5,6 +5,7 @@ beef: "10.25"
 chicken: "9.95"
 pork: "9.95"
 vege: "9.50"
+
 update: 12/20/2022
 ---
 

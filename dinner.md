@@ -1,10 +1,30 @@
 ---
-chef: "10.50"
-shrimp: "10.25"
-beef: "10.25"
-chicken: "9.95"
-pork: "9.95"
-vege: "9.50"
+house: "12.95"
+chicken: "11.95"
+pork: "11.95"
+beef: "12.95"
+seafood: "12.95"
+vege: "10.95"
+CLcpb: "11.95"
+CLshrimp: "12.95"
+CLcomb: "12.95"
+EFYcpb: "12.50"
+EFYshrimp: "12.95"
+EFYcomb: "12.95"
+FRcpb: "9.75"
+FRshrimp: "9.95"
+FRcomb: "10.95"
+FRcrab: "15.95"
+dspec: "11.95"
+fspec: "13.95"
+CHcomb: "12.95"
+child: "9.50"
+VNcomb: "12.95"
+VNfam2: "35.95"
+VNfam3: "48.95"
+VNfam4: "65.95"
+VNfam6: "95.95"
+
 update: 12/20/2022
 ---
 
@@ -53,31 +73,31 @@ Add Fried Noodles for additional cost
 
 ### House Specialties
 Served with steamed rice
-- Triple Delight
-- Sweet & Sour Delight
-- General Chicken
-- Golden Chicken
-- Sesame Chicken
-- Sesame Beef
-- Chicken and Shrimp Saute
-- Chicken and Beef Hunan
-- House Special Beef
-- Sizzling Beef and Scallops
-- Seafood Delight
-- Sizzling Trio
-- Happy Family
-- Beef with Orange Flavor
-- Dragon Phoenix Delight
-- House Special Fried Noodle
-- Chicken with Orange Flavor
-- Shrimp and Scallop with Garlic Sauce
-- Five Spice Shrimp
-- Double Flavor Shrimp
-- Sesame Shrimp
-- Scallop Peking Style
-- Shrimp and Pork Hunan
+- ${{ page.house | plus: 0 | sprintf("%.2f") }} Triple Delight
+- ${{ page.house | plus: 0 | sprintf("%.2f") }} Sweet & Sour Delight
+- ${{ page.house | plus: 0 | sprintf("%.2f") }} General Chicken
+- ${{ page.house | plus: 0 | sprintf("%.2f") }} Golden Chicken
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Sesame Chicken
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Sesame Beef
+- ${{ page.house | plus: 0 | sprintf("%.2f") }} Chicken and Shrimp Saute
+- ${{ page.house | plus: 0 | sprintf("%.2f") }} Chicken and Beef Hunan
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} House Special Beef
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Sizzling Beef and Scallops
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Seafood Delight
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Sizzling Trio
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Happy Family
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Beef with Orange Flavor
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Dragon Phoenix Delight
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} House Special Fried Noodle
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Chicken with Orange Flavor
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Shrimp and Scallop with Garlic Sauce
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Five Spice Shrimp
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Double Flavor Shrimp
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Sesame Shrimp
+- ${{ page.house | plus: 2 | sprintf("%.2f") }} Scallop Peking Style
+- ${{ page.house | plus: 1 | sprintf("%.2f") }} Shrimp and Pork Hunan
 
-### Chicken **${{ page.chicken | sprintf(%.2f) }}
+### Chicken **${{ page.chicken | sprintf("%.2f") }}
 Served with steamed rice
 - Lemon Chicken
 - Mongolian Chicken
@@ -96,7 +116,7 @@ Served with steamed rice
 - Chicken with Asparagus and Mushroom
 - Shredded Chicken with Seasonal Vegetables
 
-### Pork **${{ page.pork | sprintf(%.2f) }}
+### Pork **${{ page.pork | sprintf("%.2f") }}
 Served with steamed rice
 - Sweet & Sour Pork
 - Pork with Garlic Sauce
@@ -106,7 +126,7 @@ Served with steamed rice
 - Shredded Pork with Peking Sauce
 - Pork Two Delight
 
-### Beef **${{ page.beef | sprintf(%.2f) }}
+### Beef **${{ page.beef | sprintf("%.2f") }}
 Served with steamed rice
 - Hunan Beef
 - Spicy Beef
@@ -122,7 +142,7 @@ Served with steamed rice
 - Sliced Beef with Oyster Sauce
 - Beef Two Delight
 
-### Seafood **${{ page.seafood | sprintf(%.2f) }}
+### Seafood **${{ page.seafood | sprintf("%.2f") }}
 Served with steamed rice
 - Imperial Shrimp
 - Sweet & Sour Shrimp
@@ -137,41 +157,41 @@ Served with steamed rice
 - Shrimp Black Bean Sauce
 - Shrimp Lobster Sauce
 - 
-- Scallop Vegetable
-- Scallop Garlic Sauce
+- ${{ page.seafood | plus:2 | sprintf("%.2f") }} Scallop Vegetable
+- ${{ page.seafood | plus:2 | sprintf("%.2f") }} Scallop Garlic Sauce
 
 ### Vegetables
 Served with steamed rice
-- Broccoli Garlic Sauce
-- Vegtable Delight
-- Snow Peas Water Chestnut
-- Sauteed Bamboo Shoot Mushroom
-- Bean Curd, Szechwan Style
-- Bean Curd, Hunan Style
-- Eight Precious Bean Curd
+- ${{ page.vege | plus:0 | sprintf("%.2f") }} Broccoli Garlic Sauce
+- ${{ page.vege | plus:0 | sprintf("%.2f") }} Vegtable Delight
+- ${{ page.vege | plus:0 | sprintf("%.2f") }} Snow Peas Water Chestnut
+- ${{ page.vege | plus:0 | sprintf("%.2f") }} Sauteed Bamboo Shoot Mushroom
+- ${{ page.vege | plus:1 | sprintf("%.2f") }} Bean Curd, Szechwan Style
+- ${{ page.vege | plus:1 | sprintf("%.2f") }} Bean Curd, Hunan Style
+- ${{ page.vege | plus:2 | sprintf("%.2f") }} Eight Precious Bean Curd
 
 ### Chow Mein or Chop Suey
-- Chicken, Pork, or Beef
-- Shrimp
-- Combination
+- ${{ page.CLcpb | plus:2 | sprintf("%.2f") }} Chicken, Pork, or Beef
+- ${{ page.CLshrimp | plus:2 | sprintf("%.2f") }} Shrimp
+- ${{ page.CLcomb | plus:2 | sprintf("%.2f") }} Combination
 
 ### Lo Mein
-- Chicken, Pork, or Beef
-- Shrimp
-- Combination
+- ${{ page.CLcpb | plus:2 | sprintf("%.2f") }} Chicken, Pork, or Beef
+- ${{ page.CLshrimp | plus:2 | sprintf("%.2f") }} Shrimp
+- ${{ page.CLcomb | plus:2 | sprintf("%.2f") }} Combination
 
 ### Egg Foo Young
-- Chicken, Pork, or Beef
-- Shrimp
-- Combination
+- ${{ page.EFYcpb | plus:2 | sprintf("%.2f") }} Chicken, Pork, or Beef
+- ${{ page.EFYshrimp | plus:2 | sprintf("%.2f") }} Shrimp
+- ${{ page.EFYcomb | plus:2 | sprintf("%.2f") }} Combination
 
 ### Fried Rice
-- Chicken, Pork, or Beef
-- Shrimp
-- Combination
-- Crabmeat
+- ${{ page.FRcpb | plus:2 | sprintf("%.2f") }} Chicken, Pork, or Beef
+- ${{ page.FRshrimp | plus:2 | sprintf("%.2f") }} Shrimp
+- ${{ page.FRcomb | plus:2 | sprintf("%.2f") }} Combination
+- ${{ page.FRcrab | plus:2 | sprintf("%.2f") }} Crabmeat
 
-### Dinner Special **${{ page.dspec | sprintf(%.2f) }}
+### Dinner Special **${{ page.dspec | sprintf("%.2f") }}
 Served with:
 - "Egg Roll" OR "Crabmeat Rangoon"
 - "Fried Rice"
@@ -199,7 +219,7 @@ Served with:
 - Shrimp Lobster Sauce
 - Kung Po Shrimp
 
-### Family Dinner **${{ page.fspec | sprintf(%.2f) }} per person
+### Family Dinner **${{ page.fspec | sprintf("%.2f") }} per person
 Served with:
 - "Egg Drop Soup" OR "Hot & Sour Soup"
 - "Egg Roll" OR "Crabmeat Rangoon"
@@ -228,7 +248,7 @@ Served with:
 - Shrimp Lobster Sauce
 - Kung Po Shrimp
 
-### Combination Plates
+### Combination Plates **${{ page.CHcomb | sprintf("%.2f") }}
 Served with:
 - "Egg Roll" OR "Crabmeat Rangoon"
 - "Fried Rice"
@@ -249,16 +269,18 @@ Served with:
 
 (For only children 12 year old or younger)
 
-- Sweet & Sour Pork
-- Sweet & Sour Chicken
-- Lemon Chicken
-- Sweet & Sour Shrimp
+- ${{ page.child | plus:0 | sprintf("%.2f") }}Sweet & Sour Pork
+- ${{ page.child | plus:0 | sprintf("%.2f") }}Sweet & Sour Chicken
+- ${{ page.child | plus:0 | sprintf("%.2f") }}Lemon Chicken
+- ${{ page.child | plus:0.45 | sprintf("%.2f") }}Sweet & Sour Shrimp
 
 ---
 
 ## Vietnamese Cuisine
 
 ### Appetizers
+
+{:start="1"}
 1. Chicken Lettuce Wrap
 1. Spring Rolls (Full order, 12 pieces) (Half order, 6 pieces)
 1. Shrimp Chips (10 pieces)
@@ -267,6 +289,8 @@ Served with:
 1. Fried Chicken Wing (12 pieces)
 
 ### Soups
+
+{:start="7"}
 1. Soup Mieng (Soup Surpreme)
 1. Soup Cua (Crab Asaragus Soup)
 1. 
@@ -275,6 +299,8 @@ Served with:
 1. Hu Tieu
 
 ### Rice Noodles
+
+{:start="13"}
 1. Sauteed Beef Rice Noodles
 1. Fried Tofu Rice Noodles
 1. Spring Roll Rice Noodles
@@ -282,6 +308,8 @@ Served with:
 1. Chicken Lemon Grass Rice Noodles
 
 ### Entrees
+
+{:start="19"}
 1. Pork Ribs Pineapple
 1. House Special Spicy Chicken
 1. Beef Vermicelli
@@ -291,7 +319,9 @@ Served with:
 1. 
 1. Chicken Lemon Grass
 
-### Combination Dinners
+### Combination Dinners **${{ page.VNcomb | sprintf("%.2f") }}
+
+{:start="27"}
 1. Fried Rice with Spring Roll & Beef Shish Kabobs
 1. Shrimp, BBQ Pork, and Chicken with Soft Noodles
 1. 
@@ -307,13 +337,17 @@ Served with:
 - "Egg Drop Soup" OR "Hot & Sour Soup"
 - "Steamed Rice"
 
-1. Dinner for Two
+- **${{ page.VNfam2 | sprintf("%.2f") }} Dinner for Two
     - Spring Roll (1), Chicken Lemon Grass, and Sweet & Sour Pork 
-1. Dinner for Three
+- **${{ page.VNfam3 | sprintf("%.2f") }} Dinner for Three
     - Spring Roll (2), Curry Chicken, Beef Broccoli, and Shrimp Snow Peas
-1. Dinner for Four
+- **${{ page.VNfam4 | sprintf("%.2f") }} Dinner for Four
     - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
-1. Dinner for Six
+- **${{ page.VNfam6 | sprintf("%.2f") }} Dinner for Six
     - Spring Roll (1), Chicken Lemon Grass, Sweet & Sour Pork 
 
 [Back](./)
+
+
+(*) Indicate Spicy Dishes \
+(**) Prices may vary. Updated since {{ page.update }}
