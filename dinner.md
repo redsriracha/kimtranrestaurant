@@ -34,7 +34,7 @@ Address: 1015 Rittiman Rd #107, San Antonio, TX 78218 \
 Hours: Monday - Saturday, 11:00 A.M. - 2:30 P.M. & 4:30 P.M. - 9:30 P.M. \
 Phone: 210.824.4660
 
-# Dinner Menu (5:00 P.M. - 9:30 P.M.)
+# Dinner Menu (4:30 P.M. - 9:30 P.M.)
 
 [Back](./)
 
