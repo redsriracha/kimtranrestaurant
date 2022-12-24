@@ -10,4 +10,4 @@ Hours: Monday - Saturday, 11:00 A.M. - 2:30 P.M. & 5:00 P.M.\
 Phone: (210) 824-4660
 
 - [Lunch](https://docs.google.com/document/d/1_OoSYnliNCvDhjTyLN1kUuxQUXdEcdoVT11bJpu7yXA/edit?usp=sharing)
-- [Dinner](./dinner)
+- [Dinner](https://docs.google.com/document/d/1wcnKDoiKsIGep2qRoAjHPQFnzrO1-3YAgPX9B8X0JoE/edit?usp=sharing)
